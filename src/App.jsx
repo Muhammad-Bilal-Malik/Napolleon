@@ -5,10 +5,10 @@ import Navbar from "./Components/Navbar";
 import Signup from "./Components/Signup";
 import { Routes, Route } from "react-router-dom";
 import Trendings from "./Components/Trendings";
+import NewsAndArticles from "./Components/NewsAndArticles";
 function App() {
   return (
     <>
-      <h1>jjjj</h1>
       <Routes>
         <Route
           path="/"
@@ -16,6 +16,7 @@ function App() {
             <>
               <Navbar /> <Hero />
               <Trendings />
+              <NewsAndArticles />
               <Footer />
             </>
           }

@@ -1,5 +1,10 @@
 import React from "react";
-// import Trandingcard01 from "./Trandingcard01";
+import card1 from "../Assets/Images/card1.svg";
+import pic02 from "../Assets/Images/pic02.svg";
+import uparrowgreen from "../Assets/Images/uparrowgreen.svg";
+import uparrowred from "../Assets/Images/uparrowred.svg";
+import logocircle from "../Assets/Images/logocircle.svg";
+import TrandingCard from "./Trandingcard01";
 
 const Trendings = () => {
   return (
@@ -31,7 +36,107 @@ const Trendings = () => {
           Crypto
         </button>
       </div>
-      <div>{/* <Trandingcard01 /> */}</div>
+      <div className="flex flex-wrap justify-evenly  mb-8">
+        <TrandingCard
+          cardButton1={[
+            {
+              id: 1,
+              text: "Buy Yes",
+              style: "bg-[#00D094]/30 rounded-sm text-[#00D094]",
+              icon: uparrowgreen,
+            },
+            {
+              id: 2,
+              text: "Buy Yes",
+              style: "bg-[#FF0000]/28 text-[#D1141E]/74",
+              icon: uparrowred,
+            },
+          ]}
+          headingText="Trump ends Ukraine war in first 90 days?"
+          picture={card1}
+        />
+        <TrandingCard
+          cardButton1={[
+            {
+              id: 1,
+              text: "Christchurch",
+              style: "bg-[#EEEEEE] text-[#162F42] mb-2",
+            },
+            {
+              id: 1,
+              text: "Linacre",
+              style: "bg-[#EEEEEE] text-[#162F42] mb-2",
+            },
+            {
+              id: 1,
+              text: "Balliol",
+              style: "bg-[#EEEEEE] text-[#162F42]",
+            },
+            {
+              id: 1,
+              text: "Brasenose",
+              style: "bg-[#EEEEEE] text-[#162F42]",
+            },
+          ]}
+          headingText="Trump ends Ukraine war in first 90 days?"
+          picture={card1}
+        />
+
+        <TrandingCard
+          cardButton1={[
+            {
+              id: 1,
+              text: "Christchurch",
+              style: "bg-[#EEEEEE] text-[#162F42] mb-2",
+            },
+            {
+              id: 1,
+              text: "Linacre",
+              style: "bg-[#EEEEEE] text-[#162F42] mb-2",
+            },
+            {
+              id: 1,
+              text: "Balliol",
+              style: "bg-[#EEEEEE] text-[#162F42]",
+            },
+            {
+              id: 1,
+              text: "Brasenose",
+              style: "bg-[#EEEEEE] text-[#162F42]",
+            },
+          ]}
+          headingText="Trump ends Ukraine war in first 90 days?"
+          picture={card1}
+        />
+        <TrandingCard
+          cardButton1={[
+            {
+              id: 1,
+              text: "Buy Yes",
+              style: "bg-[#00D094]/30 rounded-sm text-[#00D094]",
+              icon: uparrowgreen,
+            },
+            {
+              id: 2,
+              text: "Buy Yes",
+              style: "bg-[#FF0000]/28 text-[#D1141E]/74",
+              icon: uparrowred,
+            },
+          ]}
+          headingText="Trump ends Ukraine war in first 90 days?"
+          picture={card1}
+        />
+      </div>
+
+      <button className="block mb-5 mx-auto rounded-sm w-64 py-1.5 text-white bg-[#00D094]">
+        View More...
+      </button>
+
+      <div className="flex justify-center items-center gap-1 py-5 mb-5">
+        <span className="h-0.5 w-[44%] border-b border-dashed border-[#00D094]"></span>
+        <img src={logocircle} alt="" />
+        <span className="h-0.5 w-[44%] border-b border-dashed border-[#00D094]"></span>
+      </div>
     </>
   );
 };
