@@ -3,16 +3,7 @@ import React from "react";
 import name from "../Assets/Images/name.svg";
 import logocircle from "../Assets/Images/logocircle.svg";
 import quiz from "../Assets/Images/quiz.svg";
-const TrandingCard = ({
-  headingText,
-  picture,
-  btnclassName,
-  btnText,
-  arrow,
-  arrowUp,
-  btnbtn,
-  cardButton1,
-}) => {
+const TrandingCard = ({ headingText, picture, cardButton1 }) => {
   console.log(cardButton1);
   return (
     <div className="cared-parent h-auto mb-4">

@@ -6,6 +6,7 @@ import Signup from "./Components/Signup";
 import { Routes, Route } from "react-router-dom";
 import Trendings from "./Components/Trendings";
 import NewsAndArticles from "./Components/NewsAndArticles";
+import Browse from "./Components/Browse";
 function App() {
   return (
     <>
@@ -14,7 +15,9 @@ function App() {
           path="/"
           element={
             <>
-              <Navbar /> <Hero />
+              <Navbar />
+
+              <Hero />
               <Trendings />
               <NewsAndArticles />
               <Footer />
@@ -23,6 +26,7 @@ function App() {
         />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/browse" element={<Browse />} />
       </Routes>
     </>
   );
