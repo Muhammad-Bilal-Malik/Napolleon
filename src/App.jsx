@@ -7,6 +7,8 @@ import { Routes, Route } from "react-router-dom";
 import Trendings from "./Components/Trendings";
 import NewsAndArticles from "./Components/NewsAndArticles";
 import Browse from "./Components/Browse";
+import Blog from "./Components/Blog";
+import ContactUs from "./Components/ContactUs";
 function App() {
   return (
     <>
@@ -27,6 +29,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/browse" element={<Browse />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/contactus" element={<ContactUs />} />
       </Routes>
     </>
   );

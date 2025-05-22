@@ -1,7 +1,7 @@
 import React from "react";
 
 import logocircle from "../Assets/Images/logocircle.svg";
-import TrandingCard from "./Trandingcard01";
+
 import Button from "./Button";
 import AllCards from "./AllCards";
 
