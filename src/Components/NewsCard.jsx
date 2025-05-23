@@ -1,5 +1,6 @@
 import disc from "../Assets/Images/disc.svg";
 import calendar from "../Assets/Images/calendar.svg";
+import Button from "./Button";
 const NewsCard = ({ picture, topic, width, textSize }) => {
   return (
     <div
@@ -23,9 +24,10 @@ const NewsCard = ({ picture, topic, width, textSize }) => {
           <span>2024/09/15</span> <img src={calendar} alt="" />
         </div>
       </div>
-      <button className="absolute bottom-2 w-24 bg-[#162F42] rounded-sm text-[#F8F8F8] text-[10px]  py-1.5 translate-x-[75%] translate-y-[75%]">
-        Read more
-      </button>
+      <Button
+        btntext="Read more"
+        style="absolute bottom-2  bg-[#162F42] text-[#F8F8F8] text-[10px]  py-1.5 translate-x-[75%] translate-y-[75%]"
+      />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 
-import logocircle from "../Assets/Images/logocircle.svg";
+import logoCoin from "../Assets/Images/logoCoin.svg";
 
 import Button from "./Button";
 import AllCards from "./AllCards";
@@ -31,7 +31,7 @@ const Trendings = () => {
 
       <div className="flex justify-center items-center gap-1 py-5 mb-5">
         <span className="h-0.5 w-[44%] border-b border-dashed border-[#00D094]"></span>
-        <img src={logocircle} alt="" />
+        <img src={logoCoin} alt="" />
         <span className="h-0.5 w-[44%] border-b border-dashed border-[#00D094]"></span>
       </div>
     </>

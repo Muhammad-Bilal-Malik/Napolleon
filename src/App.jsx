@@ -9,6 +9,7 @@ import NewsAndArticles from "./Components/NewsAndArticles";
 import Browse from "./Components/Browse";
 import Blog from "./Components/Blog";
 import ContactUs from "./Components/ContactUs";
+import Faq from "./Components/Faq";
 function App() {
   return (
     <>
@@ -31,6 +32,7 @@ function App() {
         <Route path="/browse" element={<Browse />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
     </>
   );
