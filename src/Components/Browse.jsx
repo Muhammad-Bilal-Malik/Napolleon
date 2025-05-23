@@ -3,48 +3,45 @@ import topics2 from "../Assets/Images/topics2.svg";
 import topics3 from "../Assets/Images/topics3.svg";
 import search from "../Assets/Images/search.svg";
 import star from "../Assets/Images/star.svg";
-import card1 from "../Assets/Images/card1.svg";
-import pic02 from "../Assets/Images/pic02.svg";
-import pic03 from "../Assets/Images/pic03.svg";
-import pic04 from "../Assets/Images/pic04.svg";
-import uparrowgreen from "../Assets/Images/uparrowgreen.svg";
-import uparrowred from "../Assets/Images/uparrowred.svg";
 import Button from "./Button";
-import TrandingCard from "./Trandingcard01";
 import AllCards from "./AllCards";
+import Navbar from "./Navbar";
 
 const Browse = () => {
   return (
-    <div className="mx-24 ">
-      <div className="flex justify-between mb-11">
-        <img src={topic1} alt="" />
-        <img src={topics2} alt="" />
-        <img src={topics3} alt="" />
-      </div>
-      <div className="flex justify-between items-center mb-9">
-        <div className="w-80 h-9 border border-[#00D094] flex items-center rounded-md ">
-          <img className="w-[15px] h-[15px] mx-[9px]" src={search} alt="" />
-          <input
-            className="focus:outline-none w-full"
-            type="text"
-            placeholder="Search By Markets..."
-          />
+    <>
+      <Navbar />
+      <div className="mx-24 ">
+        <div className="flex justify-between mb-11">
+          <img src={topic1} alt="" />
+          <img src={topics2} alt="" />
+          <img src={topics3} alt="" />
         </div>
-        <div className="flex gap-9">
-          <Button
-            btntext="Top"
-            style="flex justify-center items-center gap-1 bg-[#00D094] text-white"
-            staricon={star}
-          />
-          <Button btntext="Sports" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-          <Button btntext="Technology" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-          <Button btntext="Elections" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-          <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-          <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+        <div className="flex justify-between items-center mb-9">
+          <div className="w-80 h-9 border border-[#00D094] flex items-center rounded-md ">
+            <img className="w-[15px] h-[15px] mx-[9px]" src={search} alt="" />
+            <input
+              className="focus:outline-none w-full"
+              type="text"
+              placeholder="Search By Markets..."
+            />
+          </div>
+          <div className="flex gap-9">
+            <Button
+              btntext="Top"
+              style="flex justify-center items-center gap-1 bg-[#00D094] text-white"
+              staricon={star}
+            />
+            <Button btntext="Sports" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+            <Button btntext="Technology" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+            <Button btntext="Elections" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+            <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+            <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+          </div>
         </div>
+        <AllCards />
       </div>
-      <AllCards />
-    </div>
+    </>
   );
 };
 

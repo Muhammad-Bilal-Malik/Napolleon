@@ -1,7 +1,7 @@
 import React from "react";
 
 import name from "../Assets/Images/name.svg";
-import logocircle from "../Assets/Images/logocircle.svg";
+import logoCoin from "../Assets/Images/logoCoin.svg";
 import quiz from "../Assets/Images/quiz.svg";
 const TrandingCard = ({ headingText, picture, cardButton1 }) => {
   console.log(cardButton1);
@@ -37,7 +37,7 @@ const TrandingCard = ({ headingText, picture, cardButton1 }) => {
               <img src={name} alt="" /> <span>869</span>
             </span>
             <span className="flex items-center gap-1 text-[#B6B6B6]">
-              <img src={logocircle} alt="" /> <span>195K</span>
+              <img src={logoCoin} alt="" /> <span>195K</span>
             </span>
             <span className="flex items-center gap-1 text-[#B6B6B6]">
               <img src={quiz} alt="" /> <span>Quiz</span>
