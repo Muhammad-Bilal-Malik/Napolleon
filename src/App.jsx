@@ -10,6 +10,8 @@ import Browse from "./Components/Browse";
 import Blog from "./Components/Blog";
 import ContactUs from "./Components/ContactUs";
 import Faq from "./Components/Faq";
+import SingleBlog from "./Components/SingleBlog";
+import ImageSlice from "./Components/ImageSlice";
 function App() {
   return (
     <>
@@ -33,6 +35,8 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/contactus" element={<ContactUs />} />
         <Route path="/faq" element={<Faq />} />
+        <Route path="/singleblog" element={<SingleBlog />} />
+        <Route path="/imageslice" element={<ImageSlice />} />
       </Routes>
     </>
   );
