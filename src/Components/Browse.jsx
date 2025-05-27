@@ -5,13 +5,11 @@ import search from "../Assets/Images/search.svg";
 import star from "../Assets/Images/star.svg";
 import Button from "./Button";
 import AllCards from "./AllCards";
-import Navbar from "./Navbar";
 
 const Browse = () => {
   return (
     <>
-      <Navbar />
-      <div className="mx-24 ">
+      <div className="mx-24 mt-11">
         <div className="flex justify-between mb-11">
           <img src={topic1} alt="" />
           <img src={topics2} alt="" />

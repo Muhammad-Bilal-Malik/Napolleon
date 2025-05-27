@@ -1,14 +1,14 @@
-import React from "react";
 import BGRectanggle from "../Assets/Images/BGRectangle.svg";
 import heroimg from "../Assets/Images/heroimg.svg";
 const Hero = () => {
   return (
     <div className="hero w-full">
       <img
-        className="w-screen absolute -top-5"
+        className="w-screen  absolute -top-5 "
         src={BGRectanggle}
         alt="heroBackgroundImage"
       />
+
       <div className=" relative flex justify-evenly items-center  ">
         <div className="w-[474px] space-y-2 mb-36 tracking-tighter">
           <p className="font-bold text-[40px] text-[#162F42] ">
