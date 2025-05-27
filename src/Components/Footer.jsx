@@ -9,7 +9,7 @@ import coins from "../Assets/Images/coins.svg";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-around items-center bg-[#00D094] h-[99px] w-[65%] rounded-xl mx-auto mb-[-40px] relative z-10">
+      <div className="flex justify-around items-center bg-[#00D094] h-[99px] w-[65%] rounded-xl mx-auto mb-[-40px] mt-[77px] relative z-10">
         <div className="flex justify-center items-center">
           <img className=" mt-[-69px] " src={coins} alt="" />
           <p className="text-white font-bold">
