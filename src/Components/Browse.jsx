@@ -9,35 +9,49 @@ import AllCards from "./AllCards";
 const Browse = () => {
   return (
     <>
-      <div className="mx-24 mt-11">
-        <div className="flex justify-between mb-11">
-          <img src={topic1} alt="" />
-          <img src={topics2} alt="" />
-          <img src={topics3} alt="" />
-        </div>
-        <div className="flex justify-between items-center mb-9">
-          <div className="w-80 h-9 border border-[#00D094] flex items-center rounded-md ">
-            <img className="w-[15px] h-[15px] mx-[9px]" src={search} alt="" />
-            <input
-              className="focus:outline-none w-full"
-              type="text"
-              placeholder="Search By Markets..."
-            />
+      <div className="max-w-[1366px] mx-auto">
+        <div className=" mt-11">
+          <div className="w-[85.36%] mx-auto">
+            <div className="flex justify-between mb-11">
+              <img src={topic1} alt="" />
+              <img src={topics2} alt="" />
+              <img src={topics3} alt="" />
+            </div>
+            <div className="flex justify-between items-center mb-9">
+              <div className="w-80 h-9 border border-[#00D094] flex items-center rounded-md ">
+                <img
+                  className="w-[15px] h-[15px] mx-[9px]"
+                  src={search}
+                  alt=""
+                />
+                <input
+                  className="focus:outline-none w-full"
+                  type="text"
+                  placeholder="Search By Markets..."
+                />
+              </div>
+              <div className="flex gap-9">
+                <Button
+                  btntext="Top"
+                  style="flex justify-center items-center gap-1 bg-[#00D094] text-white"
+                  staricon={star}
+                />
+                <Button btntext="Sports" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+                <Button
+                  btntext="Technology"
+                  style="bg-[#FFFFFF] text-[#4F4F4F]"
+                />
+                <Button
+                  btntext="Elections"
+                  style="bg-[#FFFFFF] text-[#4F4F4F]"
+                />
+                <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+                <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
+              </div>
+            </div>
           </div>
-          <div className="flex gap-9">
-            <Button
-              btntext="Top"
-              style="flex justify-center items-center gap-1 bg-[#00D094] text-white"
-              staricon={star}
-            />
-            <Button btntext="Sports" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-            <Button btntext="Technology" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-            <Button btntext="Elections" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-            <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-            <Button btntext="Crypto" style="bg-[#FFFFFF] text-[#4F4F4F]" />
-          </div>
+          <AllCards />
         </div>
-        <AllCards />
       </div>
     </>
   );

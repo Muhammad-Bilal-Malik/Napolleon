@@ -3,8 +3,8 @@ import ImageSlice from "./ImageSlice";
 
 const AboutUs = () => {
   return (
-    <div className="max-w-[1366px]">
-      <div className="w-[83.67%] mx-auto">
+    <div className="max-w-[1366px] mx-auto">
+      <div className="w-[85.35%] mx-auto">
         <h1 className="text-[40px] font-bold text-center mt-4 py-8">
           About <span className="text-[#00D094]">Us</span>
         </h1>

@@ -8,8 +8,8 @@ import TrandingCard from "./Trandingcard01";
 
 const AllCards = () => {
   return (
-    <div className="flex justify-center gap-2.5  mb-8">
-      <div>
+    <div className=" lg:flex lg:justify-center lg:gap-2.5  mb-8">
+      <div className="">
         <TrandingCard
           cardButton1={[
             {
