@@ -2,7 +2,7 @@
 @import "tailwindcss";
 :root {
   font-family: "Popins";
-  /* line-height: 1.5; */
+  line-height: 1.5;
   box-sizing: border-box;
   /* color-scheme: light dark; */
   /* text-rendering: optimizeLegibility; */
@@ -10,6 +10,6 @@
   /* -moz-osx-font-smoothing: grayscale; */
 }
 body {
-  background-color: #e0f0eb;
+  background-color: #ebfbf7;
   color: #4e4e4e;
 }
